@@ -1,0 +1,236 @@
+{
+  "ram_range": "16-32 GB",
+  "description": "Mid- to large-scale models (native and quantized) optimized for CPU-only machines with 16–32 GB RAM and 8–24 cores. Include LLMs, code generators, translation, vision, audio and image-generation models.",
+  "models": [
+    {
+      "model_name": "GPT-J 6B",
+      "category": "general_purpose_llms",
+      "developer": "EleutherAI",
+      "parameters": "6 B",
+      "release_date": "2021-06-11",
+      "supported_tasks": ["text generation", "few-shot prompting"],
+      "hardware_requirements": {
+        "cpu_cores_min": 8,
+        "cpu_cores_recommended": 16,
+        "system_ram": "24 GB"
+      },
+      "notes": "Float32 inference on CPU; quantizzazione 8-bit riduce RAM a ~16 GB."
+    },
+    {
+      "model_name": "GPT-NeoX 20B (Q4-8bit)",
+      "category": "general_purpose_llms",
+      "developer": "EleutherAI",
+      "parameters": "20 B",
+      "release_date": "2022-03-15",
+      "supported_tasks": ["text completion", "conversation"],
+      "hardware_requirements": {
+        "cpu_cores_min": 12,
+        "cpu_cores_recommended": 24,
+        "system_ram": "28 GB"
+      },
+      "notes": "Quantizzato 4-bit su CPU in ~28 GB RAM."
+    },
+    {
+      "model_name": "LLaMA 2 13B (Q4-8bit)",
+      "category": "general_purpose_llms",
+      "developer": "Meta AI",
+      "parameters": "13 B",
+      "release_date": "2023-07-18",
+      "supported_tasks": ["text generation", "dialogue"],
+      "hardware_requirements": {
+        "cpu_cores_min": 8,
+        "cpu_cores_recommended": 16,
+        "system_ram": "20 GB"
+      },
+      "notes": "Quantizzato 4-bit: inferenza CPU in ~20 GB."
+    },
+    {
+      "model_name": "Mistral 7B",
+      "category": "general_purpose_llms",
+      "developer": "Mistral AI",
+      "parameters": "7 B",
+      "release_date": "2023-09-26",
+      "supported_tasks": ["creative writing", "code generation", "dialogue"],
+      "hardware_requirements": {
+        "cpu_cores_min": 8,
+        "cpu_cores_recommended": 16,
+        "system_ram": "24 GB"
+      },
+      "notes": "Float32 su CPU in ~24 GB; quantizzazione 8-bit ~16 GB."
+    },
+    {
+      "model_name": "Falcon 40B (Q4-8bit)",
+      "category": "general_purpose_llms",
+      "developer": "Technology Innovation Institute",
+      "parameters": "40 B",
+      "release_date": "2023-02-14",
+      "supported_tasks": ["text generation", "reasoning"],
+      "hardware_requirements": {
+        "cpu_cores_min": 12,
+        "cpu_cores_recommended": 24,
+        "system_ram": "32 GB"
+      },
+      "notes": "Quantizzato 4-bit: inferenza CPU in ~32 GB."
+    },
+    {
+      "model_name": "T5-3B",
+      "category": "multitask_text_to_text",
+      "developer": "Google Research",
+      "parameters": "3 B",
+      "release_date": "2020-10-01",
+      "supported_tasks": ["translation", "summarization", "Q&A", "classification"],
+      "hardware_requirements": {
+        "cpu_cores_min": 8,
+        "cpu_cores_recommended": 16,
+        "system_ram": "18 GB"
+      },
+      "notes": "Float32 su CPU; 8-bit quant ~12 GB."
+    },
+    {
+      "model_name": "T5-11B (Q4-8bit)",
+      "category": "multitask_text_to_text",
+      "developer": "Google Research",
+      "parameters": "11 B",
+      "release_date": "2021-04-30",
+      "supported_tasks": ["translation", "summarization", "Q&A"],
+      "hardware_requirements": {
+        "cpu_cores_min": 12,
+        "cpu_cores_recommended": 24,
+        "system_ram": "30 GB"
+      },
+      "notes": "Quantizzato 8-bit in ~30 GB RAM."
+    },
+    {
+      "model_name": "GPT-2 XL (1.5B)",
+      "category": "general_purpose_llms",
+      "developer": "OpenAI",
+      "parameters": "1.5 B",
+      "release_date": "2019-02-14",
+      "supported_tasks": ["text generation", "few-shot prompting"],
+      "hardware_requirements": {
+        "cpu_cores_min": 8,
+        "cpu_cores_recommended": 16,
+        "system_ram": "16 GB"
+      }
+    },
+    {
+      "model_name": "CodeGen 2 6B (Q4-8bit)",
+      "category": "code_generation_models",
+      "developer": "Salesforce",
+      "parameters": "6 B",
+      "release_date": "2023-01-10",
+      "supported_tasks": ["code completion", "generation", "refactoring"],
+      "hardware_requirements": {
+        "cpu_cores_min": 8,
+        "cpu_cores_recommended": 16,
+        "system_ram": "20 GB"
+      },
+      "notes": "Quantizzato per CPU in ~20 GB."
+    },
+    {
+      "model_name": "CodeT5 Large (770M)",
+      "category": "code_generation_models",
+      "developer": "Salesforce",
+      "parameters": "770 M",
+      "release_date": "2021-10-20",
+      "supported_tasks": ["code completion", "documentation"],
+      "hardware_requirements": {
+        "cpu_cores_min": 8,
+        "cpu_cores_recommended": 12,
+        "system_ram": "16 GB"
+      }
+    },
+    {
+      "model_name": "MarianMT All-to-En (1.2B)",
+      "category": "machine_translation_models",
+      "developer": "Hugging Face",
+      "parameters": "1.2 B",
+      "release_date": "2020-08-11",
+      "supported_tasks": ["translation"],
+      "hardware_requirements": {
+        "cpu_cores_min": 8,
+        "cpu_cores_recommended": 16,
+        "system_ram": "18 GB"
+      }
+    },
+    {
+      "model_name": "BART Large (400M)",
+      "category": "text_summarization_models",
+      "developer": "Facebook AI",
+      "parameters": "400 M",
+      "release_date": "2019-10-21",
+      "supported_tasks": ["summarization", "generation"],
+      "hardware_requirements": {
+        "cpu_cores_min": 8,
+        "cpu_cores_recommended": 12,
+        "system_ram": "16 GB"
+      }
+    },
+    {
+      "model_name": "Whisper Medium",
+      "category": "audio_asr_models",
+      "developer": "OpenAI",
+      "parameters": "730 M",
+      "release_date": "2022-04-21",
+      "supported_tasks": ["speech-to-text", "language identification"],
+      "hardware_requirements": {
+        "cpu_cores_min": 8,
+        "cpu_cores_recommended": 16,
+        "system_ram": "24 GB"
+      }
+    },
+    {
+      "model_name": "CLIP ViT-L/14",
+      "category": "multimodal_vision_language",
+      "developer": "OpenAI",
+      "parameters": "428 M",
+      "release_date": "2021-01-05",
+      "supported_tasks": ["zero-shot classification", "image-text retrieval"],
+      "hardware_requirements": {
+        "cpu_cores_min": 8,
+        "cpu_cores_recommended": 16,
+        "system_ram": "20 GB"
+      }
+    },
+    {
+      "model_name": "Stable Diffusion 1.4",
+      "category": "vision_text_to_image",
+      "developer": "Stability AI",
+      "parameters": "1.1 B",
+      "release_date": "2022-08-22",
+      "supported_tasks": ["text-to-image generation"],
+      "hardware_requirements": {
+        "cpu_cores_min": 12,
+        "cpu_cores_recommended": 24,
+        "system_ram": "32 GB"
+      },
+      "notes": "CPU-only inference estremamente lenta ma fattibile in 32 GB."
+    },
+    {
+      "model_name": "Sentence-Transformer All-MiniLM L12",
+      "category": "embedding_models",
+      "developer": "Hugging Face",
+      "parameters": "117 M",
+      "release_date": "2021-04-12",
+      "supported_tasks": ["sentence embedding", "semantic search"],
+      "hardware_requirements": {
+        "cpu_cores_min": 4,
+        "cpu_cores_recommended": 8,
+        "system_ram": "16 GB"
+      }
+    },
+    {
+      "model_name": "XLM-R Large (550M)",
+      "category": "multilingual_models",
+      "developer": "Facebook AI",
+      "parameters": "550 M",
+      "release_date": "2019-11-12",
+      "supported_tasks": ["multilingual classification", "NER"],
+      "hardware_requirements": {
+        "cpu_cores_min": 8,
+        "cpu_cores_recommended": 16,
+        "system_ram": "16 GB"
+      }
+    }
+  ]
+}
