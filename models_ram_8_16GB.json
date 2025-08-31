@@ -1,0 +1,150 @@
+{
+  "ram_range": "8-16 GB",
+  "description": "Modelli mid-sized e quantizzati da 8–16 core, per sistemi CPU-only con 8–16 GB RAM e use case avanzati.",
+  "models": [
+    {
+      "model_name": "GPT-Neo 1.3 B",
+      "category": "general_purpose_llms",
+      "developer": "EleutherAI",
+      "parameters": "1.3 B",
+      "release_date": "2021-03-02",
+      "supported_tasks": ["text completion", "conversation"],
+      "hardware_requirements": {
+        "cpu_cores_min": 8,
+        "system_ram": "12 GB"
+      }
+    },
+    {
+      "model_name": "GPT-2 XL (1.5 B)",
+      "category": "general_purpose_llms",
+      "developer": "OpenAI",
+      "parameters": "1.5 B",
+      "release_date": "2019-02-14",
+      "supported_tasks": ["text generation", "few-shot prompting"],
+      "hardware_requirements": {
+        "cpu_cores_min": 8,
+        "system_ram": "16 GB"
+      }
+    },
+    {
+      "model_name": "OPT-1.3 B",
+      "category": "general_purpose_llms",
+      "developer": "Meta AI",
+      "parameters": "1.3 B",
+      "release_date": "2022-05-25",
+      "supported_tasks": ["text generation", "dialogue"],
+      "hardware_requirements": {
+        "cpu_cores_min": 8,
+        "system_ram": "12 GB"
+      }
+    },
+    {
+      "model_name": "LLaMA 7 B (Q4-8bit)",
+      "category": "general_purpose_llms",
+      "developer": "Meta AI",
+      "parameters": "7 B",
+      "release_date": "2023-02-24",
+      "supported_tasks": ["text generation", "few-shot prompting"],
+      "hardware_requirements": {
+        "cpu_cores_min": 8,
+        "system_ram": "12 GB"
+      }
+    },
+    {
+      "model_name": "Mistral 7 B (Q4-8bit)",
+      "category": "general_purpose_llms",
+      "developer": "Mistral AI",
+      "parameters": "7 B",
+      "release_date": "2023-09-26",
+      "supported_tasks": ["creative writing", "dialogue", "code generation"],
+      "hardware_requirements": {
+        "cpu_cores_min": 8,
+        "system_ram": "16 GB"
+      }
+    },
+    {
+      "model_name": "T5-Base (220 M)",
+      "category": "multitask_text_to_text",
+      "developer": "Google Research",
+      "parameters": "220 M",
+      "release_date": "2020-10-01",
+      "supported_tasks": ["translation", "summarization", "Q&A"],
+      "hardware_requirements": {
+        "cpu_cores_min": 8,
+        "system_ram": "12 GB"
+      }
+    },
+    {
+      "model_name": "BERT Large (340 M)",
+      "category": "multilingual_models",
+      "developer": "Google Research",
+      "parameters": "340 M",
+      "release_date": "2019-06-01",
+      "supported_tasks": ["classification", "Q&A"],
+      "hardware_requirements": {
+        "cpu_cores_min": 8,
+        "system_ram": "16 GB"
+      }
+    },
+    {
+      "model_name": "RoBERTa Large (355 M)",
+      "category": "multilingual_models",
+      "developer": "Facebook AI",
+      "parameters": "355 M",
+      "release_date": "2019-07-26",
+      "supported_tasks": ["classification", "Q&A"],
+      "hardware_requirements": {
+        "cpu_cores_min": 8,
+        "system_ram": "16 GB"
+      }
+    },
+    {
+      "model_name": "CodeT5 Base (220 M)",
+      "category": "code_generation_models",
+      "developer": "Salesforce",
+      "parameters": "220 M",
+      "release_date": "2021-10-20",
+      "supported_tasks": ["code completion", "refactoring"],
+      "hardware_requirements": {
+        "cpu_cores_min": 8,
+        "system_ram": "12 GB"
+      }
+    },
+    {
+      "model_name": "CLIP ViT-L/14",
+      "category": "multimodal_vision_language",
+      "developer": "OpenAI",
+      "parameters": "428 M",
+      "release_date": "2021-01-05",
+      "supported_tasks": ["zero-shot classification", "image-text retrieval"],
+      "hardware_requirements": {
+        "cpu_cores_min": 8,
+        "system_ram": "16 GB"
+      }
+    },
+    {
+      "model_name": "EfficientNet-B4",
+      "category": "vision_models_other_tasks",
+      "developer": "Google",
+      "parameters": "19 M",
+      "release_date": "2019-06-18",
+      "supported_tasks": ["image classification", "feature extraction"],
+      "hardware_requirements": {
+        "cpu_cores_min": 8,
+        "system_ram": "12 GB"
+      }
+    },
+    {
+      "model_name": "Sentence-Transformer All-MiniLM L12",
+      "category": "embedding_models",
+      "developer": "Hugging Face",
+      "parameters": "117 M",
+      "release_date": "2021-04-12",
+      "supported_tasks": ["sentence embedding", "semantic search"],
+      "hardware_requirements": {
+        "cpu_cores_min": 4,
+        "system_ram": "8 GB"
+      }
+    }
+  ]
+}
