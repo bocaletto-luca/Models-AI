@@ -1,0 +1,70 @@
+{
+    "llms": [
+        {
+            "name": "Hugging Face Transformers",
+            "url": "https://github.com/huggingface/transformers",
+            "description": "State-of-the-art Natural Language Processing library."
+        },
+        {
+            "name": "LLaMA Factory",
+            "url": "https://github.com/hiyouga/LLaMA-Factory",
+            "description": "Fine-tuning framework for LLaMA and other LLMs."
+        },
+        {
+            "name": "OpenChat",
+            "url": "https://github.com/imoneoi/openchat",
+            "description": "Open-source chat-based LLM."
+        }
+    ],
+    "image": [
+        {
+            "name": "Stable Diffusion WebUI",
+            "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+            "description": "Web interface for Stable Diffusion image generation."
+        },
+        {
+            "name": "ComfyUI",
+            "url": "https://github.com/comfyanonymous/ComfyUI",
+            "description": "Modular UI for Stable Diffusion workflows."
+        },
+        {
+            "name": "DeepFloyd IF",
+            "url": "https://github.com/deep-floyd/IF",
+            "description": "Text-to-image generation model."
+        }
+    ],
+    "tools": [
+        {
+            "name": "LangChain",
+            "url": "https://github.com/hwchase17/langchain",
+            "description": "Framework for building applications with LLMs."
+        },
+        {
+            "name": "Auto-GPT",
+            "url": "https://github.com/Torantulino/Auto-GPT",
+            "description": "Autonomous AI agent for task execution."
+        },
+        {
+            "name": "Haystack",
+            "url": "https://github.com/deepset-ai/haystack",
+            "description": "Framework for building search and question answering systems."
+        }
+    ],
+    "training": [
+        {
+            "name": "LoRA",
+            "url": "https://github.com/microsoft/LoRA",
+            "description": "Low-Rank Adaptation for efficient fine-tuning."
+        },
+        {
+            "name": "DeepSpeed",
+            "url": "https://github.com/microsoft/DeepSpeed",
+            "description": "Deep learning optimization library."
+        },
+        {
+            "name": "FastChat",
+            "url": "https://github.com/lm-sys/FastChat",
+            "description": "An open platform for training, serving, and evaluating chatbots."
+        }
+    ]
+}
