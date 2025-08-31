@@ -1,0 +1,276 @@
+{
+  "llms": [
+    {
+      "name": "Meta Llama 3 (family)",
+      "url": "https://github.com/meta-llama/llama3",
+      "description": "Foundation and instruct LLMs; multiple sizes and variants."
+    },
+    {
+      "name": "Llama 2 (family)",
+      "url": "https://github.com/facebookresearch/llama",
+      "description": "Earlier LLaMA generation; base and chat models."
+    },
+    {
+      "name": "Mistral 7B",
+      "url": "https://github.com/mistralai/mistral-src",
+      "description": "Efficient 7B foundation/instruct model."
+    },
+    {
+      "name": "Mixtral 8x7B (MoE)",
+      "url": "https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1",
+      "description": "Sparse Mixture-of-Experts model; instruct variant."
+    },
+    {
+      "name": "Mixtral 8x22B (MoE)",
+      "url": "https://huggingface.co/mistralai/Mixtral-8x22B",
+      "description": "Larger MoE family; base and instruct variants."
+    },
+    {
+      "name": "Qwen 7B",
+      "url": "https://github.com/QwenLM/Qwen",
+      "description": "General-purpose LLM; base and instruct variants."
+    },
+    {
+      "name": "Qwen 14B",
+      "url": "https://github.com/QwenLM/Qwen",
+      "description": "Mid-size LLM; supports multilingual use."
+    },
+    {
+      "name": "Qwen 72B",
+      "url": "https://github.com/QwenLM/Qwen",
+      "description": "High-capacity LLM; strong reasoning."
+    },
+    {
+      "name": "Yi 6B",
+      "url": "https://github.com/01-ai/Yi",
+      "description": "Compact, capable base/instruct models."
+    },
+    {
+      "name": "Yi 34B",
+      "url": "https://github.com/01-ai/Yi",
+      "description": "Larger Yi model; base and chat variants."
+    },
+    {
+      "name": "Falcon 7B",
+      "url": "https://github.com/tiiuae/falcon",
+      "description": "Lightweight foundation LLM."
+    },
+    {
+      "name": "Falcon 40B",
+      "url": "https://github.com/tiiuae/falcon",
+      "description": "Larger Falcon family model."
+    },
+    {
+      "name": "DeepSeek LLM 7B",
+      "url": "https://github.com/deepseek-ai/DeepSeek-LLM",
+      "description": "Efficient LLM with strong coding ability."
+    },
+    {
+      "name": "DeepSeek LLM 67B",
+      "url": "https://github.com/deepseek-ai/DeepSeek-LLM",
+      "description": "High-capacity model; base and chat variants."
+    },
+    {
+      "name": "InternLM 7B",
+      "url": "https://github.com/InternLM/InternLM",
+      "description": "Open LLM with strong Chinese/English support."
+    },
+    {
+      "name": "Baichuan 2 (7B/13B)",
+      "url": "https://github.com/baichuan-inc/Baichuan2",
+      "description": "Balanced performance bilingual models."
+    },
+    {
+      "name": "MiniCPM (family)",
+      "url": "https://github.com/OpenBMB/MiniCPM",
+      "description": "Compact LLMs optimized for edge devices."
+    },
+    {
+      "name": "OpenLLaMA 7B",
+      "url": "https://github.com/openlm-research/open_llama",
+      "description": "Reproduction of LLaMA-style models."
+    },
+    {
+      "name": "Pythia (70M–12B)",
+      "url": "https://github.com/EleutherAI/pythia",
+      "description": "Open pretraining suite across many scales."
+    },
+    {
+      "name": "GPT-J 6B",
+      "url": "https://github.com/kingoflolz/mesh-transformer-jax",
+      "description": "6B parameter autoregressive model."
+    },
+    {
+      "name": "GPT-NeoX 20B",
+      "url": "https://github.com/EleutherAI/gpt-neox",
+      "description": "20B open LLM; base for many finetunes."
+    },
+    {
+      "name": "MPT-7B (family)",
+      "url": "https://huggingface.co/mosaicml/mpt-7b",
+      "description": "Base, instruct, storywriter variants."
+    },
+    {
+      "name": "XVERSE-13B",
+      "url": "https://github.com/xverse-ai/XVERSE-13B",
+      "description": "13B bilingual foundation model."
+    },
+    {
+      "name": "SOLAR 10.7B Instruct",
+      "url": "https://huggingface.co/upstage/solar-10.7b-instruct-v1.0",
+      "description": "Strong 10.7B instruct model."
+    },
+    {
+      "name": "WizardLM (family)",
+      "url": "https://github.com/nlpxucan/WizardLM",
+      "description": "Instruction-tuned variants across base models."
+    },
+    {
+      "name": "Vicuna (family)",
+      "url": "https://github.com/lm-sys/FastChat",
+      "description": "High-quality chat finetunes (weight deltas)."
+    },
+    {
+      "name": "Zephyr 7B",
+      "url": "https://huggingface.co/HuggingFaceH4/zephyr-7b-beta",
+      "description": "Instruction-tuned 7B chat model."
+    }
+  ],
+  "llms_lightweight_cpu": [
+    {
+      "name": "Phi-2 (2.7B)",
+      "url": "https://huggingface.co/microsoft/phi-2",
+      "description": "Small, performant LLM for limited hardware."
+    },
+    {
+      "name": "Phi-3 Mini 4K Instruct",
+      "url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct",
+      "description": "Compact instruct model; good CPU performance."
+    },
+    {
+      "name": "TinyLlama 1.1B Chat",
+      "url": "https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+      "description": "Ultra-light chat LLM for edge devices."
+    },
+    {
+      "name": "Qwen2 1.5B Instruct",
+      "url": "https://huggingface.co/Qwen/Qwen2-1.5B-Instruct",
+      "description": "Small, strong bilingual instruct LLM."
+    },
+    {
+      "name": "Cerebras-GPT (111M–13B)",
+      "url": "https://huggingface.co/cerebras/Cerebras-GPT-13B",
+      "description": "Open family; choose smaller sizes for CPUs."
+    },
+    {
+      "name": "DistilGPT-2",
+      "url": "https://huggingface.co/distilgpt2",
+      "description": "Distilled GPT-2 for very low resource use."
+    },
+    {
+      "name": "Alpaca 7B",
+      "url": "https://github.com/tatsu-lab/stanford_alpaca",
+      "description": "Instruction-tuned 7B (uses LLaMA base; deltas)."
+    },
+    {
+      "name": "Mistral 7B Instruct GGUF",
+      "url": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF",
+      "description": "Quantized for llama.cpp; CPU-friendly."
+    },
+    {
+      "name": "Llama 2 7B Chat GGUF",
+      "url": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF",
+      "description": "Multiple quant levels for low-end PCs."
+    },
+    {
+      "name": "Zephyr 7B GGUF",
+      "url": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF",
+      "description": "Quantized Zephyr for CPU inference."
+    },
+    {
+      "name": "TinyLlama GGUF",
+      "url": "https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF",
+      "description": "Very small chat model; great for old PCs."
+    },
+    {
+      "name": "Phi-2 GGUF",
+      "url": "https://huggingface.co/bartowski/phi-2-GGUF",
+      "description": "Quantized Phi-2 for llama.cpp."
+    },
+    {
+      "name": "Qwen2 1.5B Instruct GGUF",
+      "url": "https://huggingface.co/bartowski/Qwen2-1.5B-Instruct-GGUF",
+      "description": "Small bilingual instruct, quantized."
+    },
+    {
+      "name": "GPT4All Models (catalog)",
+      "url": "https://github.com/nomic-ai/gpt4all",
+      "description": "Collection of CPU-friendly models and quantizations."
+    }
+  ],
+  "multimodal_vl": [
+    {
+      "name": "LLaVA (family)",
+      "url": "https://github.com/haotian-liu/LLaVA",
+      "description": "Vision-language models; multiple base backbones."
+    },
+    {
+      "name": "Qwen-VL",
+      "url": "https://github.com/QwenLM/Qwen-VL",
+      "description": "Multimodal LLM with strong OCR and VQA."
+    },
+    {
+      "name": "InternVL",
+      "url": "https://github.com/OpenGVLab/InternVL",
+      "description": "Large-scale VLM series; broad benchmarks."
+    },
+    {
+      "name": "MiniGPT-4",
+      "url": "https://github.com/Vision-CAIR/MiniGPT-4",
+      "description": "Lightweight VLM built atop strong LLM backbones."
+    },
+    {
+      "name": "mPLUG-Owl (family)",
+      "url": "https://github.com/X-PLUG/mPLUG-Owl",
+      "description": "General-purpose vision-language models."
+    },
+    {
+      "name": "CogVLM",
+      "url": "https://github.com/THUDM/CogVLM",
+      "description": "Multimodal understanding and reasoning."
+    }
+  ],
+  "vision_models": [
+    {
+      "name": "Stable Diffusion v1-5",
+      "url": "https://huggingface.co/runwayml/stable-diffusion-v1-5",
+      "description": "Classic text-to-image latent diffusion model."
+    },
+    {
+      "name": "Stable Diffusion 2.1",
+      "url": "https://huggingface.co/stabilityai/stable-diffusion-2-1",
+      "description": "Improved text-to-image with higher resolution."
+    },
+    {
+      "name": "Stable Diffusion XL 1.0",
+      "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "description": "High-quality next-gen text-to-image."
+    },
+    {
+      "name": "Kandinsky 2.2",
+      "url": "https://huggingface.co/kandinsky-community/kandinsky-2-2-decoder",
+      "description": "Alternative diffusion text-to-image models."
+    },
+    {
+      "name": "DALL·E Mini (Craiyon)",
+      "url": "https://github.com/borisdayma/dalle-mini",
+      "description": "Early open text-to-image model."
+    },
+    {
+      "name": "StyleGAN3",
+      "url": "https://github.com/NVlabs/stylegan3",
+      "description": "High-fidelity generative image model."
+    },
+    {
+      "name": "Segment Anything (SAM)",
+      "url": "https://github.com/facebookresearch/segment-anything",
