@@ -1,0 +1,131 @@
+{
+  "category": "general_purpose_llms",
+  "description": "Large language models trained for a wide range of text-based tasks such as generation, summarization, translation, and question answering.",
+  "models": [
+    {
+      "model_name": "GPT-4",
+      "developer": "OpenAI",
+      "architecture": "Transformer-based",
+      "parameters": "≈1.8T",
+      "release_date": "2023-03-14",
+      "license": "Proprietary",
+      "supported_tasks": [
+        "text generation",
+        "question answering",
+        "summarization",
+        "translation"
+      ],
+      "access": "API",
+      "official_website": "https://openai.com/",
+      "notes": "State-of-the-art performance across multiple benchmarks."
+    },
+    {
+      "model_name": "GPT-3.5 Turbo",
+      "developer": "OpenAI",
+      "architecture": "Transformer-based",
+      "parameters": "≈175B",
+      "release_date": "2022-11-30",
+      "license": "Proprietary",
+      "supported_tasks": [
+        "chat",
+        "content creation",
+        "code completion"
+      ],
+      "access": "API",
+      "official_website": "https://openai.com/",
+      "notes": "Optimized for conversational use cases with cost-effective inference."
+    },
+    {
+      "model_name": "LLaMA 2 (7B)",
+      "developer": "Meta AI",
+      "architecture": "Transformer-based",
+      "parameters": "7B",
+      "release_date": "2023-07-18",
+      "license": "Apache 2.0",
+      "supported_tasks": [
+        "text generation",
+        "few-shot learning"
+      ],
+      "access": "Hugging Face",
+      "official_website": "https://ai.meta.com/llama",
+      "notes": "Lightweight variant ideale per ricerca e sperimentazione."
+    },
+    {
+      "model_name": "LLaMA 2 (13B)",
+      "developer": "Meta AI",
+      "architecture": "Transformer-based",
+      "parameters": "13B",
+      "release_date": "2023-07-18",
+      "license": "Apache 2.0",
+      "supported_tasks": [
+        "text generation",
+        "dialogue systems"
+      ],
+      "access": "Hugging Face",
+      "official_website": "https://ai.meta.com/llama",
+      "notes": "Ottimo bilanciamento tra performance e requisiti computazionali."
+    },
+    {
+      "model_name": "BLOOM (176B)",
+      "developer": "BigScience",
+      "architecture": "Transformer-based",
+      "parameters": "176B",
+      "release_date": "2022-07-07",
+      "license": "Razor",
+      "supported_tasks": [
+        "multilingual text generation",
+        "translation",
+        "summarization"
+      ],
+      "access": "Hugging Face",
+      "official_website": "https://bigscience.huggingface.co/",
+      "notes": "Progetto open collaborative, supporta più di 46 lingue."
+    },
+    {
+      "model_name": "GPT-NeoX (20B)",
+      "developer": "EleutherAI",
+      "architecture": "Transformer-based",
+      "parameters": "20B",
+      "release_date": "2022-03-15",
+      "license": "Apache 2.0",
+      "supported_tasks": [
+        "text completion",
+        "few-shot prompting"
+      ],
+      "access": "Hugging Face",
+      "official_website": "https://www.eleuther.ai/projects/gpt-neox/",
+      "notes": "Altamente ottimizzato per ambiente HPC e cloud."
+    },
+    {
+      "model_name": "Falcon 7B",
+      "developer": "Technology Innovation Institute",
+      "architecture": "Transformer-based",
+      "parameters": "7B",
+      "release_date": "2023-02-14",
+      "license": "Apache 2.0",
+      "supported_tasks": [
+        "text generation",
+        "reasoning"
+      ],
+      "access": "Hugging Face",
+      "official_website": "https://falconllm.tii.ae/",
+      "notes": "Elevata velocità di inferenza su GPU."
+    },
+    {
+      "model_name": "Mistral 7B",
+      "developer": "Mistral AI",
+      "architecture": "Mixture-of-Experts Transformer",
+      "parameters": "7B",
+      "release_date": "2023-09-26",
+      "license": "Proprietary (free for research)",
+      "supported_tasks": [
+        "creative writing",
+        "code generation",
+        "conversational AI"
+      ],
+      "access": "API",
+      "official_website": "https://www.mistral.ai/",
+      "notes": "Ottimo compromesso tra qualità generativa e calcolo."
+    }
+  ]
+}
