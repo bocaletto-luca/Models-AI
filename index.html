@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A curated collection of open-source AI modules and repositories.">
+    <meta name="author" content="Bocaletto Luca">
+    <meta name="keywords" content="AI, Artificial Intelligence, Open Source, GitHub, Machine Learning, Deep Learning, Modules">
+    <title>Open Source AI Modules - Bocaletto Luca</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Open Source AI Modules</h1>
+        <nav>
+            <ul>
+                <li><a href="#llms">LLMs</a></li>
+                <li><a href="#image">Image Generation</a></li>
+                <li><a href="#tools">AI Tools</a></li>
+                <li><a href="#training">Training & Fine-tuning</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="llms">
+            <h2>Large Language Models</h2>
+            <ul id="llms-list"></ul>
+        </section>
+
+        <section id="image">
+            <h2>Image Generation</h2>
+            <ul id="image-list"></ul>
+        </section>
+
+        <section id="tools">
+            <h2>AI Tools & Frameworks</h2>
+            <ul id="tools-list"></ul>
+        </section>
+
+        <section id="training">
+            <h2>Training & Fine-tuning</h2>
+            <ul id="training-list"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Bocaletto Luca - <a href="https://github.com/bocaletto-luca/Moduli-AI">GitHub Repository</a></p>
+    </footer>
+
+    <script>
+        fetch('modules.json')
+            .then(response => response.json())
+            .then(data => {
+                for (const category in data) {
+                    const list = document.getElementById(`${category}-list`);
+                    data[category].forEach(module => {
+                        const li = document.createElement('li');
+                        li.innerHTML = `<a href="${module.url}" target="_blank">${module.name}</a> - ${module.description}`;
+                        list.appendChild(li);
+                    });
+                }
+            });
+    </script>
+</body>
+</html>
