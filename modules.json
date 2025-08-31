@@ -1,70 +1,350 @@
 {
-    "llms": [
-        {
-            "name": "Hugging Face Transformers",
-            "url": "https://github.com/huggingface/transformers",
-            "description": "State-of-the-art Natural Language Processing library."
-        },
-        {
-            "name": "LLaMA Factory",
-            "url": "https://github.com/hiyouga/LLaMA-Factory",
-            "description": "Fine-tuning framework for LLaMA and other LLMs."
-        },
-        {
-            "name": "OpenChat",
-            "url": "https://github.com/imoneoi/openchat",
-            "description": "Open-source chat-based LLM."
-        }
-    ],
-    "image": [
-        {
-            "name": "Stable Diffusion WebUI",
-            "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
-            "description": "Web interface for Stable Diffusion image generation."
-        },
-        {
-            "name": "ComfyUI",
-            "url": "https://github.com/comfyanonymous/ComfyUI",
-            "description": "Modular UI for Stable Diffusion workflows."
-        },
-        {
-            "name": "DeepFloyd IF",
-            "url": "https://github.com/deep-floyd/IF",
-            "description": "Text-to-image generation model."
-        }
-    ],
-    "tools": [
-        {
-            "name": "LangChain",
-            "url": "https://github.com/hwchase17/langchain",
-            "description": "Framework for building applications with LLMs."
-        },
-        {
-            "name": "Auto-GPT",
-            "url": "https://github.com/Torantulino/Auto-GPT",
-            "description": "Autonomous AI agent for task execution."
-        },
-        {
-            "name": "Haystack",
-            "url": "https://github.com/deepset-ai/haystack",
-            "description": "Framework for building search and question answering systems."
-        }
-    ],
-    "training": [
-        {
-            "name": "LoRA",
-            "url": "https://github.com/microsoft/LoRA",
-            "description": "Low-Rank Adaptation for efficient fine-tuning."
-        },
-        {
-            "name": "DeepSpeed",
-            "url": "https://github.com/microsoft/DeepSpeed",
-            "description": "Deep learning optimization library."
-        },
-        {
-            "name": "FastChat",
-            "url": "https://github.com/lm-sys/FastChat",
-            "description": "An open platform for training, serving, and evaluating chatbots."
-        }
-    ]
+  "llms": [
+    {
+      "name": "Hugging Face Transformers",
+      "url": "https://github.com/huggingface/transformers",
+      "description": "State-of-the-art library for NLP, vision, and speech models."
+    },
+    {
+      "name": "LLaMA Factory",
+      "url": "https://github.com/hiyouga/LLaMA-Factory",
+      "description": "User-friendly framework for fine-tuning and serving LLaMA and other LLMs."
+    },
+    {
+      "name": "OpenChat",
+      "url": "https://github.com/imoneoi/openchat",
+      "description": "Instruction-tuned, open-source chat LLM project."
+    },
+    {
+      "name": "llama.cpp",
+      "url": "https://github.com/ggerganov/llama.cpp",
+      "description": "Inference of LLaMA and other LLMs on CPU/GPU with minimal dependencies."
+    },
+    {
+      "name": "GPT4All",
+      "url": "https://github.com/nomic-ai/gpt4all",
+      "description": "Local LLMs with a desktop app and tooling for offline use."
+    },
+    {
+      "name": "vLLM",
+      "url": "https://github.com/vllm-project/vllm",
+      "description": "High-throughput, memory-efficient inference and serving for LLMs."
+    },
+    {
+      "name": "Text Generation Inference",
+      "url": "https://github.com/huggingface/text-generation-inference",
+      "description": "Production-ready LLM inference server with tensor parallelism."
+    },
+    {
+      "name": "KoboldCpp",
+      "url": "https://github.com/LostRuins/koboldcpp",
+      "description": "Local inference backend with UI compatibility for story and chat."
+    },
+    {
+      "name": "RWKV",
+      "url": "https://github.com/BlinkDL/RWKV-LM",
+      "description": "RNN-like alternative to Transformers for long-context modeling."
+    },
+    {
+      "name": "ExLlamaV2",
+      "url": "https://github.com/turboderp/exllamav2",
+      "description": "Fast inference for quantized LLaMA models on GPUs."
+    },
+    {
+      "name": "llama-cpp-python",
+      "url": "https://github.com/abetlen/llama-cpp-python",
+      "description": "Python bindings and server for llama.cpp."
+    },
+    {
+      "name": "FastChat",
+      "url": "https://github.com/lm-sys/FastChat",
+      "description": "Training, serving, and evaluation platform for chat-based LLMs."
+    },
+    {
+      "name": "text-generation-webui",
+      "url": "https://github.com/oobabooga/text-generation-webui",
+      "description": "Web UI for running and experimenting with local LLMs."
+    },
+    {
+      "name": "Mamba",
+      "url": "https://github.com/state-spaces/mamba",
+      "description": "State space model architecture offering efficient sequence modeling."
+    },
+    {
+      "name": "lit-gpt",
+      "url": "https://github.com/Lightning-AI/lit-gpt",
+      "description": "Lightweight, hackable repository for training and finetuning LLMs."
+    },
+    {
+      "name": "Llama Recipes",
+      "url": "https://github.com/meta-llama/llama-recipes",
+      "description": "Reference recipes and examples for LLaMA models."
+    }
+  ],
+  "image": [
+    {
+      "name": "Stable Diffusion WebUI",
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "description": "Feature-rich web interface for Stable Diffusion."
+    },
+    {
+      "name": "ComfyUI",
+      "url": "https://github.com/comfyanonymous/ComfyUI",
+      "description": "Node-based, modular workflow UI for diffusion models."
+    },
+    {
+      "name": "DeepFloyd IF",
+      "url": "https://github.com/deep-floyd/IF",
+      "description": "High-quality text-to-image generation pipeline."
+    },
+    {
+      "name": "Diffusers",
+      "url": "https://github.com/huggingface/diffusers",
+      "description": "Library for diffusion models (text-to-image, image-to-image, etc.)."
+    },
+    {
+      "name": "InvokeAI",
+      "url": "https://github.com/invoke-ai/InvokeAI",
+      "description": "Stable Diffusion toolkit with web UI and workflows."
+    },
+    {
+      "name": "ControlNet",
+      "url": "https://github.com/lllyasviel/ControlNet",
+      "description": "Conditioning method to control diffusion models with guidance maps."
+    },
+    {
+      "name": "Real-ESRGAN",
+      "url": "https://github.com/xinntao/Real-ESRGAN",
+      "description": "Practical super-resolution for real-world images."
+    },
+    {
+      "name": "GFPGAN",
+      "url": "https://github.com/TencentARC/GFPGAN",
+      "description": "Face restoration for old photos and AI-generated faces."
+    },
+    {
+      "name": "Stable Diffusion (CompVis)",
+      "url": "https://github.com/CompVis/stable-diffusion",
+      "description": "Original research implementation of Stable Diffusion."
+    },
+    {
+      "name": "Kandinsky 2",
+      "url": "https://github.com/ai-forever/Kandinsky-2",
+      "description": "Text-to-image generation models and pipelines."
+    },
+    {
+      "name": "Open-Sora",
+      "url": "https://github.com/Open-Sora/Open-Sora",
+      "description": "Open research project for text-to-video generation."
+    },
+    {
+      "name": "Segment Anything",
+      "url": "https://github.com/facebookresearch/segment-anything",
+      "description": "Generalist, promptable segmentation for images."
+    },
+    {
+      "name": "DragGAN",
+      "url": "https://github.com/XingangPan/DragGAN",
+      "description": "Interactive point-based image editing using GAN priors."
+    },
+    {
+      "name": "Stable Video Diffusion",
+      "url": "https://github.com/Stability-AI/stable-video-diffusion",
+      "description": "Open video generation models and pipelines."
+    },
+    {
+      "name": "StyleGAN3",
+      "url": "https://github.com/NVlabs/stylegan3",
+      "description": "High-quality generative adversarial networks for images."
+    }
+  ],
+  "tools": [
+    {
+      "name": "LangChain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "description": "Framework for building LLM applications and agents."
+    },
+    {
+      "name": "LlamaIndex",
+      "url": "https://github.com/run-llama/llama_index",
+      "description": "Data framework for RAG pipelines with LLMs."
+    },
+    {
+      "name": "Haystack",
+      "url": "https://github.com/deepset-ai/haystack",
+      "description": "End-to-end framework for search and question answering."
+    },
+    {
+      "name": "Open WebUI",
+      "url": "https://github.com/open-webui/open-webui",
+      "description": "Self-hosted UI for chat, RAG, and tool integrations."
+    },
+    {
+      "name": "Dify",
+      "url": "https://github.com/langgenius/dify",
+      "description": "Open-source LLM app platform with workflows and agents."
+    },
+    {
+      "name": "Flowise",
+      "url": "https://github.com/FlowiseAI/Flowise",
+      "description": "Drag-and-drop UI to build LLM flows and RAG apps."
+    },
+    {
+      "name": "Gradio",
+      "url": "https://github.com/gradio-app/gradio",
+      "description": "UI components for ML demos and apps in Python."
+    },
+    {
+      "name": "Ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Local model runner and registry with simple CLI and API."
+    },
+    {
+      "name": "Milvus",
+      "url": "https://github.com/milvus-io/milvus",
+      "description": "Cloud-native vector database for AI applications."
+    },
+    {
+      "name": "Qdrant",
+      "url": "https://github.com/qdrant/qdrant",
+      "description": "High-performance vector database with gRPC/REST APIs."
+    },
+    {
+      "name": "Weaviate",
+      "url": "https://github.com/weaviate/weaviate",
+      "description": "Open-source vector database with modular pipelines."
+    },
+    {
+      "name": "Chroma",
+      "url": "https://github.com/chroma-core/chroma",
+      "description": "Lightweight, simple vector store for RAG."
+    },
+    {
+      "name": "Guidance",
+      "url": "https://github.com/guidance-ai/guidance",
+      "description": "Programmatic control of LLM generation via templates."
+    },
+    {
+      "name": "DSPy",
+      "url": "https://github.com/stanfordnlp/dspy",
+      "description": "Declarative framework for optimizing LLM pipelines."
+    },
+    {
+      "name": "promptfoo",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "description": "Testing and evaluation for prompts and LLM apps."
+    },
+    {
+      "name": "LiteLLM",
+      "url": "https://github.com/BerriAI/litellm",
+      "description": "Unified SDK and proxy across many LLM providers."
+    },
+    {
+      "name": "AnythingLLM",
+      "url": "https://github.com/Mintplex-Labs/anything-llm",
+      "description": "All-in-one desktop RAG app with document ingestion."
+    }
+  ],
+  "training": [
+    {
+      "name": "LoRA",
+      "url": "https://github.com/microsoft/LoRA",
+      "description": "Low-Rank Adaptation for efficient fine-tuning."
+    },
+    {
+      "name": "PEFT",
+      "url": "https://github.com/huggingface/peft",
+      "description": "Parameter-efficient fine-tuning methods for Transformers."
+    },
+    {
+      "name": "Accelerate",
+      "url": "https://github.com/huggingface/accelerate",
+      "description": "Simple multi-GPU/TPU training and inference utilities."
+    },
+    {
+      "name": "TRL",
+      "url": "https://github.com/huggingface/trl",
+      "description": "Reinforcement learning for fine-tuning LLMs (PPO, DPO, etc.)."
+    },
+    {
+      "name": "DeepSpeed",
+      "url": "https://github.com/microsoft/DeepSpeed",
+      "description": "System optimizations for large-scale model training."
+    },
+    {
+      "name": "Megatron-LM",
+      "url": "https://github.com/NVIDIA/Megatron-LM",
+      "description": "Large-scale Transformer training with tensor/pipeline parallelism."
+    },
+    {
+      "name": "bitsandbytes",
+      "url": "https://github.com/TimDettmers/bitsandbytes",
+      "description": "8-bit and 4-bit optimizers and quantization for LLMs."
+    },
+    {
+      "name": "FlashAttention",
+      "url": "https://github.com/Dao-AILab/flash-attention",
+      "description": "Fast, memory-efficient attention kernels for Transformers."
+    },
+    {
+      "name": "xFormers",
+      "url": "https://github.com/facebookresearch/xformers",
+      "description": "Collection of optimized Transformer building blocks."
+    },
+    {
+      "name": "Stanford Alpaca",
+      "url": "https://github.com/tatsu-lab/stanford_alpaca",
+      "description": "Instruction-following dataset and scripts for LLaMA finetuning."
+    },
+    {
+      "name": "Axolotl",
+      "url": "https://github.com/OpenAccess-AI-Collective/axolotl",
+      "description": "LLM finetuning framework with extensive recipe support."
+    },
+    {
+      "name": "ColossalAI",
+      "url": "https://github.com/hpcaitech/ColossalAI",
+      "description": "Training, inference, and compression for large models."
+    },
+    {
+      "name": "LLM Foundry",
+      "url": "https://github.com/mosaicml/llm-foundry",
+      "description": "Reference code for training and finetuning LLMs at scale."
+    },
+    {
+      "name": "DeepSpeed-MII",
+      "url": "https://github.com/microsoft/DeepSpeed-MII",
+      "description": "Inference optimization and serving for transformer models."
+    },
+    {
+      "name": "QLoRA",
+      "url": "https://github.com/artidoro/qlora",
+      "description": "Quantization-aware LoRA finetuning for memory efficiency."
+    },
+    {
+      "name": "TRLX",
+      "url": "https://github.com/CarperAI/trlx",
+      "description": "Reinforcement learning training framework for language models."
+    },
+    {
+      "name": "OpenRLHF",
+      "url": "https://github.com/OpenRLHF/OpenRLHF",
+      "description": "Scalable RLHF training system for large models."
+    },
+    {
+      "name": "Alpaca-LoRA",
+      "url": "https://github.com/tloen/alpaca-lora",
+      "description": "LoRA-based finetuning scripts for instruction models."
+    },
+    {
+      "name": "Kohya_ss",
+      "url": "https://github.com/bmaltais/kohya_ss",
+      "description": "GUI and scripts for training/finetuning diffusion models."
+    },
+    {
+      "name": "LMFlow",
+      "url": "https://github.com/OptimalScale/LMFlow",
+      "description": "Extensible toolkit for finetuning and inference of LLMs."
+    }
+  ]
 }
