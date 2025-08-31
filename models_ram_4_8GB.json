@@ -1,0 +1,150 @@
+{
+  "ram_range": "4-8 GB",
+  "description": "Modelli compatti da 4–8 core, adatti a progetti locali CPU-only con 4–8 GB RAM, qualità e versatilità superiori.",
+  "models": [
+    {
+      "model_name": "GPT-Neo 125 M",
+      "category": "general_purpose_llms",
+      "developer": "EleutherAI",
+      "parameters": "125 M",
+      "release_date": "2021-03-02",
+      "supported_tasks": ["text completion", "few-shot prompting"],
+      "hardware_requirements": {
+        "cpu_cores_min": 4,
+        "system_ram": "6 GB"
+      }
+    },
+    {
+      "model_name": "GPT-2 Medium (345 M)",
+      "category": "general_purpose_llms",
+      "developer": "OpenAI",
+      "parameters": "345 M",
+      "release_date": "2019-02-14",
+      "supported_tasks": ["text generation", "few-shot prompting"],
+      "hardware_requirements": {
+        "cpu_cores_min": 4,
+        "system_ram": "8 GB"
+      }
+    },
+    {
+      "model_name": "BERT Base (110 M)",
+      "category": "multilingual_models",
+      "developer": "Google Research",
+      "parameters": "110 M",
+      "release_date": "2018-10-11",
+      "supported_tasks": ["classification", "NER", "Q&A"],
+      "hardware_requirements": {
+        "cpu_cores_min": 4,
+        "system_ram": "6 GB"
+      }
+    },
+    {
+      "model_name": "RoBERTa Base (125 M)",
+      "category": "multilingual_models",
+      "developer": "Facebook AI",
+      "parameters": "125 M",
+      "release_date": "2019-07-26",
+      "supported_tasks": ["classification", "Q&A"],
+      "hardware_requirements": {
+        "cpu_cores_min": 4,
+        "system_ram": "8 GB"
+      }
+    },
+    {
+      "model_name": "CodeT5 Small (60 M)",
+      "category": "code_generation_models",
+      "developer": "Salesforce",
+      "parameters": "60 M",
+      "release_date": "2021-10-20",
+      "supported_tasks": ["code completion", "documentation"],
+      "hardware_requirements": {
+        "cpu_cores_min": 4,
+        "system_ram": "6 GB"
+      }
+    },
+    {
+      "model_name": "MarianMT En–De (220 M)",
+      "category": "machine_translation_models",
+      "developer": "Hugging Face",
+      "parameters": "220 M",
+      "release_date": "2020-08-11",
+      "supported_tasks": ["translation"],
+      "hardware_requirements": {
+        "cpu_cores_min": 4,
+        "system_ram": "6 GB"
+      }
+    },
+    {
+      "model_name": "DistilBART (139 M)",
+      "category": "text_summarization_models",
+      "developer": "Hugging Face",
+      "parameters": "139 M",
+      "release_date": "2020-02-14",
+      "supported_tasks": ["summarization", "generation"],
+      "hardware_requirements": {
+        "cpu_cores_min": 4,
+        "system_ram": "8 GB"
+      }
+    },
+    {
+      "model_name": "CLIP ViT-B/16",
+      "category": "multimodal_vision_language",
+      "developer": "OpenAI",
+      "parameters": "396 M",
+      "release_date": "2021-01-05",
+      "supported_tasks": ["zero-shot classification", "image-text retrieval"],
+      "hardware_requirements": {
+        "cpu_cores_min": 4,
+        "system_ram": "8 GB"
+      }
+    },
+    {
+      "model_name": "EfficientNet-B1",
+      "category": "vision_models_other_tasks",
+      "developer": "Google",
+      "parameters": "7.8 M",
+      "release_date": "2019-06-18",
+      "supported_tasks": ["image classification", "feature extraction"],
+      "hardware_requirements": {
+        "cpu_cores_min": 4,
+        "system_ram": "6 GB"
+      }
+    },
+    {
+      "model_name": "Wav2Vec 2.0 Small (60 M)",
+      "category": "audio_asr_models",
+      "developer": "Facebook AI",
+      "parameters": "60 M",
+      "release_date": "2020-09-01",
+      "supported_tasks": ["speech-to-text"],
+      "hardware_requirements": {
+        "cpu_cores_min": 4,
+        "system_ram": "8 GB"
+      }
+    },
+    {
+      "model_name": "Sentence-Transformer MiniLM L6",
+      "category": "embedding_models",
+      "developer": "Hugging Face",
+      "parameters": "33 M",
+      "release_date": "2020-11-10",
+      "supported_tasks": ["sentence embedding", "semantic search"],
+      "hardware_requirements": {
+        "cpu_cores_min": 2,
+        "system_ram": "4 GB"
+      }
+    },
+    {
+      "model_name": "XLM-R Base (125 M)",
+      "category": "multilingual_models",
+      "developer": "Facebook AI",
+      "parameters": "125 M",
+      "release_date": "2019-11-12",
+      "supported_tasks": ["multilingual classification", "NER"],
+      "hardware_requirements": {
+        "cpu_cores_min": 4,
+        "system_ram": "8 GB"
+      }
+    }
+  ]
+}
