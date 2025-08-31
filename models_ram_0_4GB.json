@@ -1,0 +1,162 @@
+{
+  "ram_range": "0-4 GB",
+  "description": "Modelli ultra-leggeri da 2–4 core, pensati per test e proof of concept su macchine con max 4 GB RAM, CPU-only.",
+  "models": [
+    {
+      "model_name": "DistilGPT2",
+      "category": "general_purpose_llms",
+      "developer": "Hugging Face",
+      "parameters": "82 M",
+      "release_date": "2019-10-03",
+      "supported_tasks": ["text generation", "language modeling"],
+      "hardware_requirements": {
+        "cpu_cores_min": 2,
+        "system_ram": "4 GB"
+      }
+    },
+    {
+      "model_name": "GPT-2 Small (117 M)",
+      "category": "general_purpose_llms",
+      "developer": "OpenAI",
+      "parameters": "117 M",
+      "release_date": "2019-02-14",
+      "supported_tasks": ["text generation", "few-shot prompting"],
+      "hardware_requirements": {
+        "cpu_cores_min": 2,
+        "system_ram": "4 GB"
+      }
+    },
+    {
+      "model_name": "TinyBERT (110 M)",
+      "category": "multilingual_models",
+      "developer": "Google Research / Huawei",
+      "parameters": "110 M",
+      "release_date": "2019-12-19",
+      "supported_tasks": ["classification", "Q&A"],
+      "hardware_requirements": {
+        "cpu_cores_min": 2,
+        "system_ram": "3 GB"
+      }
+    },
+    {
+      "model_name": "T5-Small (60 M)",
+      "category": "multitask_text_to_text",
+      "developer": "Google Research",
+      "parameters": "60 M",
+      "release_date": "2020-10-01",
+      "supported_tasks": ["translation", "summarization", "Q&A", "classification"],
+      "hardware_requirements": {
+        "cpu_cores_min": 2,
+        "system_ram": "4 GB"
+      }
+    },
+    {
+      "model_name": "MobileBERT (25 M)",
+      "category": "general_purpose_llms",
+      "developer": "Google Research",
+      "parameters": "25 M",
+      "release_date": "2020-01-08",
+      "supported_tasks": ["classification", "Q&A", "embedding"],
+      "hardware_requirements": {
+        "cpu_cores_min": 2,
+        "system_ram": "3 GB"
+      }
+    },
+    {
+      "model_name": "DistilBERT (66 M)",
+      "category": "multilingual_models",
+      "developer": "Hugging Face",
+      "parameters": "66 M",
+      "release_date": "2019-10-01",
+      "supported_tasks": ["classification", "NER", "Q&A"],
+      "hardware_requirements": {
+        "cpu_cores_min": 2,
+        "system_ram": "3 GB"
+      }
+    },
+    {
+      "model_name": "CodeParrot-small (110 M)",
+      "category": "code_generation_models",
+      "developer": "Hugging Face",
+      "parameters": "110 M",
+      "release_date": "2022-01-15",
+      "supported_tasks": ["code completion", "generation"],
+      "hardware_requirements": {
+        "cpu_cores_min": 2,
+        "system_ram": "4 GB"
+      }
+    },
+    {
+      "model_name": "CLIP ViT-B/32",
+      "category": "multimodal_vision_language",
+      "developer": "OpenAI",
+      "parameters": "151 M",
+      "release_date": "2021-01-05",
+      "supported_tasks": ["zero-shot classification", "image-text retrieval"],
+      "hardware_requirements": {
+        "cpu_cores_min": 2,
+        "system_ram": "4 GB"
+      }
+    },
+    {
+      "model_name": "MobileNetV2",
+      "category": "vision_models_other_tasks",
+      "developer": "Google",
+      "parameters": "3.4 M",
+      "release_date": "2018-04-30",
+      "supported_tasks": ["image classification", "feature extraction"],
+      "hardware_requirements": {
+        "cpu_cores_min": 2,
+        "system_ram": "2 GB"
+      }
+    },
+    {
+      "model_name": "SqueezeNet",
+      "category": "vision_models_other_tasks",
+      "developer": "DeepScale",
+      "parameters": "1.2 M",
+      "release_date": "2016-02-05",
+      "supported_tasks": ["image classification"],
+      "hardware_requirements": {
+        "cpu_cores_min": 2,
+        "system_ram": "2 GB"
+      }
+    },
+    {
+      "model_name": "DeepSpeech v0.9",
+      "category": "audio_asr_models",
+      "developer": "Mozilla",
+      "parameters": "65 M",
+      "release_date": "2020-02-18",
+      "supported_tasks": ["speech-to-text"],
+      "hardware_requirements": {
+        "cpu_cores_min": 4,
+        "system_ram": "4 GB"
+      }
+    },
+    {
+      "model_name": "GloVe (100D)",
+      "category": "embedding_models",
+      "developer": "Stanford NLP",
+      "parameters": "–",
+      "release_date": "2014-05-01",
+      "supported_tasks": ["word embedding"],
+      "hardware_requirements": {
+        "cpu_cores_min": 1,
+        "system_ram": "1 GB"
+      }
+    },
+    {
+      "model_name": "FastText (300D)",
+      "category": "embedding_models",
+      "developer": "Facebook AI",
+      "parameters": "–",
+      "release_date": "2017-10-05",
+      "supported_tasks": ["word embedding", "classification"],
+      "hardware_requirements": {
+        "cpu_cores_min": 1,
+        "system_ram": "2 GB"
+      }
+    }
+  ]
+}
