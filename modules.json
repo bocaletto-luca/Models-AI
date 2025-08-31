@@ -1,276 +1,146 @@
 {
   "llms": [
-    {
-      "name": "Meta Llama 3 (family)",
-      "url": "https://github.com/meta-llama/llama3",
-      "description": "Foundation and instruct LLMs; multiple sizes and variants."
-    },
-    {
-      "name": "Llama 2 (family)",
-      "url": "https://github.com/facebookresearch/llama",
-      "description": "Earlier LLaMA generation; base and chat models."
-    },
-    {
-      "name": "Mistral 7B",
-      "url": "https://github.com/mistralai/mistral-src",
-      "description": "Efficient 7B foundation/instruct model."
-    },
-    {
-      "name": "Mixtral 8x7B (MoE)",
-      "url": "https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1",
-      "description": "Sparse Mixture-of-Experts model; instruct variant."
-    },
-    {
-      "name": "Mixtral 8x22B (MoE)",
-      "url": "https://huggingface.co/mistralai/Mixtral-8x22B",
-      "description": "Larger MoE family; base and instruct variants."
-    },
-    {
-      "name": "Qwen 7B",
-      "url": "https://github.com/QwenLM/Qwen",
-      "description": "General-purpose LLM; base and instruct variants."
-    },
-    {
-      "name": "Qwen 14B",
-      "url": "https://github.com/QwenLM/Qwen",
-      "description": "Mid-size LLM; supports multilingual use."
-    },
-    {
-      "name": "Qwen 72B",
-      "url": "https://github.com/QwenLM/Qwen",
-      "description": "High-capacity LLM; strong reasoning."
-    },
-    {
-      "name": "Yi 6B",
-      "url": "https://github.com/01-ai/Yi",
-      "description": "Compact, capable base/instruct models."
-    },
-    {
-      "name": "Yi 34B",
-      "url": "https://github.com/01-ai/Yi",
-      "description": "Larger Yi model; base and chat variants."
-    },
-    {
-      "name": "Falcon 7B",
-      "url": "https://github.com/tiiuae/falcon",
-      "description": "Lightweight foundation LLM."
-    },
-    {
-      "name": "Falcon 40B",
-      "url": "https://github.com/tiiuae/falcon",
-      "description": "Larger Falcon family model."
-    },
-    {
-      "name": "DeepSeek LLM 7B",
-      "url": "https://github.com/deepseek-ai/DeepSeek-LLM",
-      "description": "Efficient LLM with strong coding ability."
-    },
-    {
-      "name": "DeepSeek LLM 67B",
-      "url": "https://github.com/deepseek-ai/DeepSeek-LLM",
-      "description": "High-capacity model; base and chat variants."
-    },
-    {
-      "name": "InternLM 7B",
-      "url": "https://github.com/InternLM/InternLM",
-      "description": "Open LLM with strong Chinese/English support."
-    },
-    {
-      "name": "Baichuan 2 (7B/13B)",
-      "url": "https://github.com/baichuan-inc/Baichuan2",
-      "description": "Balanced performance bilingual models."
-    },
-    {
-      "name": "MiniCPM (family)",
-      "url": "https://github.com/OpenBMB/MiniCPM",
-      "description": "Compact LLMs optimized for edge devices."
-    },
-    {
-      "name": "OpenLLaMA 7B",
-      "url": "https://github.com/openlm-research/open_llama",
-      "description": "Reproduction of LLaMA-style models."
-    },
-    {
-      "name": "Pythia (70M–12B)",
-      "url": "https://github.com/EleutherAI/pythia",
-      "description": "Open pretraining suite across many scales."
-    },
-    {
-      "name": "GPT-J 6B",
-      "url": "https://github.com/kingoflolz/mesh-transformer-jax",
-      "description": "6B parameter autoregressive model."
-    },
-    {
-      "name": "GPT-NeoX 20B",
-      "url": "https://github.com/EleutherAI/gpt-neox",
-      "description": "20B open LLM; base for many finetunes."
-    },
-    {
-      "name": "MPT-7B (family)",
-      "url": "https://huggingface.co/mosaicml/mpt-7b",
-      "description": "Base, instruct, storywriter variants."
-    },
-    {
-      "name": "XVERSE-13B",
-      "url": "https://github.com/xverse-ai/XVERSE-13B",
-      "description": "13B bilingual foundation model."
-    },
-    {
-      "name": "SOLAR 10.7B Instruct",
-      "url": "https://huggingface.co/upstage/solar-10.7b-instruct-v1.0",
-      "description": "Strong 10.7B instruct model."
-    },
-    {
-      "name": "WizardLM (family)",
-      "url": "https://github.com/nlpxucan/WizardLM",
-      "description": "Instruction-tuned variants across base models."
-    },
-    {
-      "name": "Vicuna (family)",
-      "url": "https://github.com/lm-sys/FastChat",
-      "description": "High-quality chat finetunes (weight deltas)."
-    },
-    {
-      "name": "Zephyr 7B",
-      "url": "https://huggingface.co/HuggingFaceH4/zephyr-7b-beta",
-      "description": "Instruction-tuned 7B chat model."
-    }
+    { "name": "Meta Llama 3 (family)", "url": "https://github.com/meta-llama/llama3", "description": "Foundation and instruct models across multiple sizes." },
+    { "name": "Llama 2 (7B/13B/70B, base/chat)", "url": "https://github.com/facebookresearch/llama", "description": "Predecessor family with strong chat finetunes." },
+    { "name": "Mistral 7B (base/instruct)", "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2", "description": "Efficient 7B model; strong general performance." },
+    { "name": "Mixtral 8x7B Instruct (MoE)", "url": "https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1", "description": "Sparse MoE model with high throughput." },
+    { "name": "Mixtral 8x22B (base/instruct)", "url": "https://huggingface.co/mistralai/Mixtral-8x22B", "description": "Larger MoE family for advanced reasoning." },
+    { "name": "Qwen2 7B Instruct", "url": "https://huggingface.co/Qwen/Qwen2-7B-Instruct", "description": "Bilingual instruct model with strong capabilities." },
+    { "name": "Qwen2 72B Instruct", "url": "https://huggingface.co/Qwen/Qwen2-72B-Instruct", "description": "High-capacity reasoning-focused model." },
+    { "name": "Yi 6B (base/chat)", "url": "https://huggingface.co/01-ai/Yi-6B-Chat", "description": "Compact bilingual model family." },
+    { "name": "Yi 34B (base/chat)", "url": "https://huggingface.co/01-ai/Yi-34B-Chat", "description": "Larger Yi with strong chat quality." },
+    { "name": "Falcon 7B", "url": "https://huggingface.co/tiiuae/falcon-7b", "description": "Lightweight foundation model." },
+    { "name": "Falcon 40B", "url": "https://huggingface.co/tiiuae/falcon-40b", "description": "High-capacity open model." },
+    { "name": "DeepSeek LLM 7B", "url": "https://huggingface.co/deepseek-ai/deepseek-llm-7b-base", "description": "Strong coding and reasoning." },
+    { "name": "DeepSeek LLM 67B", "url": "https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat", "description": "High-end chat model." },
+    { "name": "InternLM 7B", "url": "https://huggingface.co/internlm/internlm-7b", "description": "Chinese/English capable LLM." },
+    { "name": "Baichuan2 7B/13B", "url": "https://huggingface.co/baichuan-inc/Baichuan2-13B-Chat", "description": "Balanced bilingual chat models." },
+    { "name": "OpenLLaMA 7B", "url": "https://huggingface.co/openlm-research/open_llama_7b", "description": "Open reproduction of LLaMA-style model." },
+    { "name": "Pythia Suite (70M–12B)", "url": "https://huggingface.co/EleutherAI/pythia-12b", "description": "Scaleable pretraining suite." },
+    { "name": "GPT-J 6B", "url": "https://huggingface.co/EleutherAI/gpt-j-6B", "description": "6B autoregressive model." },
+    { "name": "GPT-NeoX 20B", "url": "https://huggingface.co/EleutherAI/gpt-neox-20b", "description": "20B open LLM base." },
+    { "name": "MPT-7B (base/instruct/story)", "url": "https://huggingface.co/mosaicml/mpt-7b", "description": "Variants for general/chat/story writing." },
+    { "name": "XVERSE-13B", "url": "https://huggingface.co/xverse/XVERSE-13B", "description": "13B bilingual foundation model." },
+    { "name": "SOLAR 10.7B Instruct", "url": "https://huggingface.co/upstage/solar-10.7b-instruct-v1.0", "description": "Compact, strong chat model." },
+    { "name": "WizardLM (family)", "url": "https://huggingface.co/WizardLM/WizardLM-13B-V1.2", "description": "Instruction-tuned variants." },
+    { "name": "Vicuna (family)", "url": "https://huggingface.co/lmsys/vicuna-13b-v1.5", "description": "High-quality chat finetunes." },
+    { "name": "Zephyr 7B", "url": "https://huggingface.co/HuggingFaceH4/zephyr-7b-beta", "description": "Light, well-aligned 7B chat." },
+    { "name": "Hermes 2 (Mistral 7B)", "url": "https://huggingface.co/NousResearch/Hermes-2-Pro-Mistral-7B", "description": "Chat/roleplay instruct model." },
+    { "name": "OpenHermes 2.5 (Mistral 7B)", "url": "https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B", "description": "General-purpose instruct." }
   ],
   "llms_lightweight_cpu": [
-    {
-      "name": "Phi-2 (2.7B)",
-      "url": "https://huggingface.co/microsoft/phi-2",
-      "description": "Small, performant LLM for limited hardware."
-    },
-    {
-      "name": "Phi-3 Mini 4K Instruct",
-      "url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct",
-      "description": "Compact instruct model; good CPU performance."
-    },
-    {
-      "name": "TinyLlama 1.1B Chat",
-      "url": "https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0",
-      "description": "Ultra-light chat LLM for edge devices."
-    },
-    {
-      "name": "Qwen2 1.5B Instruct",
-      "url": "https://huggingface.co/Qwen/Qwen2-1.5B-Instruct",
-      "description": "Small, strong bilingual instruct LLM."
-    },
-    {
-      "name": "Cerebras-GPT (111M–13B)",
-      "url": "https://huggingface.co/cerebras/Cerebras-GPT-13B",
-      "description": "Open family; choose smaller sizes for CPUs."
-    },
-    {
-      "name": "DistilGPT-2",
-      "url": "https://huggingface.co/distilgpt2",
-      "description": "Distilled GPT-2 for very low resource use."
-    },
-    {
-      "name": "Alpaca 7B",
-      "url": "https://github.com/tatsu-lab/stanford_alpaca",
-      "description": "Instruction-tuned 7B (uses LLaMA base; deltas)."
-    },
-    {
-      "name": "Mistral 7B Instruct GGUF",
-      "url": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF",
-      "description": "Quantized for llama.cpp; CPU-friendly."
-    },
-    {
-      "name": "Llama 2 7B Chat GGUF",
-      "url": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF",
-      "description": "Multiple quant levels for low-end PCs."
-    },
-    {
-      "name": "Zephyr 7B GGUF",
-      "url": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF",
-      "description": "Quantized Zephyr for CPU inference."
-    },
-    {
-      "name": "TinyLlama GGUF",
-      "url": "https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF",
-      "description": "Very small chat model; great for old PCs."
-    },
-    {
-      "name": "Phi-2 GGUF",
-      "url": "https://huggingface.co/bartowski/phi-2-GGUF",
-      "description": "Quantized Phi-2 for llama.cpp."
-    },
-    {
-      "name": "Qwen2 1.5B Instruct GGUF",
-      "url": "https://huggingface.co/bartowski/Qwen2-1.5B-Instruct-GGUF",
-      "description": "Small bilingual instruct, quantized."
-    },
-    {
-      "name": "GPT4All Models (catalog)",
-      "url": "https://github.com/nomic-ai/gpt4all",
-      "description": "Collection of CPU-friendly models and quantizations."
-    }
+    { "name": "Phi-2 (2.7B)", "url": "https://huggingface.co/microsoft/phi-2", "description": "Small, performant model for limited hardware." },
+    { "name": "Phi-3 Mini 4K Instruct", "url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct", "description": "Compact instruct; good CPU performance." },
+    { "name": "TinyLlama 1.1B Chat", "url": "https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0", "description": "Ultra-light chat model for edge devices." },
+    { "name": "Qwen2 0.5B Instruct", "url": "https://huggingface.co/Qwen/Qwen2-0.5B-Instruct", "description": "Very small bilingual instruct LLM." },
+    { "name": "Qwen2 1.5B Instruct", "url": "https://huggingface.co/Qwen/Qwen2-1.5B-Instruct", "description": "Small but capable instruct." },
+    { "name": "Cerebras-GPT 1.3B", "url": "https://huggingface.co/cerebras/Cerebras-GPT-1.3B", "description": "Open small-scale pretrained model." },
+    { "name": "DistilGPT-2", "url": "https://huggingface.co/distilgpt2", "description": "Distilled GPT-2 for very low resources." },
+    { "name": "Phi-2 GGUF", "url": "https://huggingface.co/bartowski/phi-2-GGUF", "description": "Quantized versions for llama.cpp CPU inference." },
+    { "name": "TinyLlama GGUF", "url": "https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF", "description": "Very small chat model quantized." },
+    { "name": "Mistral 7B Instruct GGUF", "url": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF", "description": "Quantized Mistral for CPUs." },
+    { "name": "Llama 2 7B Chat GGUF", "url": "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF", "description": "Various quant levels for old PCs." },
+    { "name": "Zephyr 7B GGUF", "url": "https://huggingface.co/TheBloke/zephyr-7B-beta-GGUF", "description": "Quantized Zephyr for CPU use." },
+    { "name": "Qwen2 1.5B GGUF", "url": "https://huggingface.co/bartowski/Qwen2-1.5B-Instruct-GGUF", "description": "Small bilingual instruct, quantized." },
+    { "name": "GPT4All Model Catalog", "url": "https://github.com/nomic-ai/gpt4all", "description": "CPU-friendly models and quantizations with desktop app." }
+  ],
+  "code_llms": [
+    { "name": "Code Llama (7B/13B/34B)", "url": "https://huggingface.co/codellama/CodeLlama-7b-hf", "description": "General code model family." },
+    { "name": "Code Llama Instruct", "url": "https://huggingface.co/codellama/CodeLlama-13b-Instruct-hf", "description": "Instruction-tuned coding model." },
+    { "name": "Code Llama Python", "url": "https://huggingface.co/codellama/CodeLlama-7b-Python-hf", "description": "Python-specialized variant." },
+    { "name": "StarCoder", "url": "https://huggingface.co/bigcode/starcoder", "description": "15.5B code model by BigCode." },
+    { "name": "StarCoder2 15B", "url": "https://huggingface.co/bigcode/starcoder2-15b", "description": "Next-gen BigCode model." },
+    { "name": "DeepSeek Coder 6.7B", "url": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-instruct", "description": "Coding instruct model." },
+    { "name": "DeepSeek Coder 33B", "url": "https://huggingface.co/deepseek-ai/deepseek-coder-33b-instruct", "description": "High-capacity coding assistant." },
+    { "name": "WizardCoder 15B", "url": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0", "description": "Instruction-tuned for coding tasks." },
+    { "name": "Qwen2.5-Coder 7B", "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct", "description": "Modern bilingual coding LLM." },
+    { "name": "CodeGemma 7B", "url": "https://huggingface.co/google/codegemma-7b", "description": "Open code model with instruct variants." }
+  ],
+  "math_reasoning_llms": [
+    { "name": "DeepSeekMath 7B", "url": "https://huggingface.co/deepseek-ai/deepseek-math-7b-instruct", "description": "Math-focused instruct model." },
+    { "name": "DeepSeekMath 33B", "url": "https://huggingface.co/deepseek-ai/deepseek-math-33b-instruct", "description": "Larger math reasoning." },
+    { "name": "WizardMath 7B", "url": "https://huggingface.co/WizardLM/WizardMath-7B-V1.1", "description": "Math specialization of WizardLM." },
+    { "name": "WizardMath 13B", "url": "https://huggingface.co/WizardLM/WizardMath-13B-V1.0", "description": "Enhanced math performance." },
+    { "name": "Llemma 7B", "url": "https://huggingface.co/EleutherAI/llemma_7b", "description": "Math and theorem proving oriented." }
   ],
   "multimodal_vl": [
-    {
-      "name": "LLaVA (family)",
-      "url": "https://github.com/haotian-liu/LLaVA",
-      "description": "Vision-language models; multiple base backbones."
-    },
-    {
-      "name": "Qwen-VL",
-      "url": "https://github.com/QwenLM/Qwen-VL",
-      "description": "Multimodal LLM with strong OCR and VQA."
-    },
-    {
-      "name": "InternVL",
-      "url": "https://github.com/OpenGVLab/InternVL",
-      "description": "Large-scale VLM series; broad benchmarks."
-    },
-    {
-      "name": "MiniGPT-4",
-      "url": "https://github.com/Vision-CAIR/MiniGPT-4",
-      "description": "Lightweight VLM built atop strong LLM backbones."
-    },
-    {
-      "name": "mPLUG-Owl (family)",
-      "url": "https://github.com/X-PLUG/mPLUG-Owl",
-      "description": "General-purpose vision-language models."
-    },
-    {
-      "name": "CogVLM",
-      "url": "https://github.com/THUDM/CogVLM",
-      "description": "Multimodal understanding and reasoning."
-    }
+    { "name": "LLaVA-1.5 (family)", "url": "https://huggingface.co/liuhaotian/llava-v1.5-7b", "description": "Vision-language models across sizes." },
+    { "name": "LLaVA-OneVision", "url": "https://huggingface.co/llava-hf/llava-onevision-qwen2-7b-ov", "description": "Unified VLM for diverse vision tasks." },
+    { "name": "Qwen2-VL 7B", "url": "https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct", "description": "Strong OCR and VQA capabilities." },
+    { "name": "InternVL 2", "url": "https://huggingface.co/OpenGVLab/InternVL2-8B", "description": "Large-scale VLM series." },
+    { "name": "MiniGPT-4", "url": "https://huggingface.co/Vision-CAIR/MiniGPT-4", "description": "Lightweight VLM built on LLM backbones." },
+    { "name": "mPLUG-Owl2", "url": "https://huggingface.co/MAGAer13/mplug-owl2-llava-7b", "description": "General-purpose VLM." },
+    { "name": "Idefics2", "url": "https://huggingface.co/HuggingFaceM4/idefics2-8b", "description": "Multimodal chat and reasoning." },
+    { "name": "BLIP-2", "url": "https://huggingface.co/Salesforce/blip2-opt-2.7b", "description": "Image-to-text and VQA pipelines." }
   ],
-  "vision_models": [
-    {
-      "name": "Stable Diffusion v1-5",
-      "url": "https://huggingface.co/runwayml/stable-diffusion-v1-5",
-      "description": "Classic text-to-image latent diffusion model."
-    },
-    {
-      "name": "Stable Diffusion 2.1",
-      "url": "https://huggingface.co/stabilityai/stable-diffusion-2-1",
-      "description": "Improved text-to-image with higher resolution."
-    },
-    {
-      "name": "Stable Diffusion XL 1.0",
-      "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
-      "description": "High-quality next-gen text-to-image."
-    },
-    {
-      "name": "Kandinsky 2.2",
-      "url": "https://huggingface.co/kandinsky-community/kandinsky-2-2-decoder",
-      "description": "Alternative diffusion text-to-image models."
-    },
-    {
-      "name": "DALL·E Mini (Craiyon)",
-      "url": "https://github.com/borisdayma/dalle-mini",
-      "description": "Early open text-to-image model."
-    },
-    {
-      "name": "StyleGAN3",
-      "url": "https://github.com/NVlabs/stylegan3",
-      "description": "High-fidelity generative image model."
-    },
-    {
-      "name": "Segment Anything (SAM)",
-      "url": "https://github.com/facebookresearch/segment-anything",
+  "vision_text_to_image": [
+    { "name": "Stable Diffusion v1-5", "url": "https://huggingface.co/runwayml/stable-diffusion-v1-5", "description": "Classic latent diffusion text-to-image." },
+    { "name": "Stable Diffusion 2.1", "url": "https://huggingface.co/stabilityai/stable-diffusion-2-1", "description": "Improved image fidelity and resolution." },
+    { "name": "Stable Diffusion XL Base 1.0", "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0", "description": "High-quality next-gen SD." },
+    { "name": "SDXL Turbo", "url": "https://huggingface.co/stabilityai/sdxl-turbo", "description": "Real-time-ish image generation." },
+    { "name": "Kandinsky 2.2", "url": "https://huggingface.co/kandinsky-community/kandinsky-2-2-decoder", "description": "Alternative diffusion pipeline." },
+    { "name": "Playground v2.5 (SDXL-based)", "url": "https://huggingface.co/playgroundai/playground-v2.5-1024px-aesthetic", "description": "Aesthetic SDXL finetune." },
+    { "name": "DreamShaper XL", "url": "https://huggingface.co/Lykon/dreamshaper-xl-v2-turbo", "description": "Popular SDXL finetune." },
+    { "name": "Realistic Vision V5", "url": "https://huggingface.co/SG161222/Realistic_Vision_V5.1_noVAE", "description": "Photorealistic SD finetune." },
+    { "name": "OpenDalle", "url": "https://github.com/saharmor/awesome-dalle", "description": "Community list/variants of open DALLE-like models." },
+    { "name": "IP-Adapter", "url": "https://huggingface.co/h94/IP-Adapter", "description": "Identity-preserving adapters for SD." }
+  ],
+  "vision_other_tasks": [
+    { "name": "Segment Anything (SAM)", "url": "https://github.com/facebookresearch/segment-anything", "description": "Promptable image segmentation." },
+    { "name": "SAM 2", "url": "https://github.com/facebookresearch/segment-anything-2", "description": "Next-gen segmentation models." },
+    { "name": "GroundingDINO", "url": "https://github.com/IDEA-Research/GroundingDINO", "description": "Open-set object detection with language." },
+    { "name": "YOLOv8", "url": "https://github.com/ultralytics/ultralytics", "description": "Real-time object detection family." },
+    { "name": "YOLOv10", "url": "https://github.com/THU-MIG/yolov10", "description": "Efficiency-focused detection." },
+    { "name": "RT-DETR", "url": "https://github.com/ModelTC/RT-DETR", "description": "Real-time DETR detector." },
+    { "name": "DETR", "url": "https://github.com/facebookresearch/detr", "description": "Transformer-based object detection." },
+    { "name": "DINOv2", "url": "https://github.com/facebookresearch/dinov2", "description": "Self-supervised visual features." },
+    { "name": "CLIP ViT-L/14", "url": "https://huggingface.co/openai/clip-vit-large-patch14", "description": "Vision-language embedding model." }
+  ],
+  "audio_asr_tts": [
+    { "name": "Whisper Tiny", "url": "https://huggingface.co/openai/whisper-tiny", "description": "Very small ASR for CPUs." },
+    { "name": "Whisper Base", "url": "https://huggingface.co/openai/whisper-base", "description": "Small ASR, multilingual." },
+    { "name": "Whisper Small", "url": "https://huggingface.co/openai/whisper-small", "description": "Balanced ASR model." },
+    { "name": "Whisper Medium", "url": "https://huggingface.co/openai/whisper-medium", "description": "More accurate multilingual ASR." },
+    { "name": "Whisper Large-v3", "url": "https://huggingface.co/openai/whisper-large-v3", "description": "High-accuracy ASR." },
+    { "name": "WhisperX", "url": "https://github.com/m-bain/whisperX", "description": "ASR with word-level timestamps and diarization." },
+    { "name": "wav2vec 2.0 Base", "url": "https://huggingface.co/facebook/wav2vec2-base-960h", "description": "Self-supervised ASR model." },
+    { "name": "XLS-R 300M", "url": "https://huggingface.co/facebook/wav2vec2-xls-r-300m", "description": "Multilingual ASR." },
+    { "name": "NVIDIA NeMo ASR QuartzNet15x5", "url": "https://huggingface.co/nvidia/stt_en_quartznet15x5", "description": "Lightweight ASR acoustic model." },
+    { "name": "Piper TTS", "url": "https://github.com/rhasspy/piper", "description": "Lightweight, fast TTS for CPUs." },
+    { "name": "Coqui TTS", "url": "https://github.com/coqui-ai/TTS", "description": "Neural TTS with many voices." },
+    { "name": "Bark", "url": "https://github.com/suno-ai/bark", "description": "Text-to-audio model (speech/music/noise)." },
+    { "name": "XTTS v2", "url": "https://huggingface.co/coqui/XTTS-v2", "description": "Cross-lingual TTS with voice cloning." },
+    { "name": "Demucs", "url": "https://github.com/facebookresearch/demucs", "description": "Music/voice source separation." },
+    { "name": "MusicGen", "url": "https://github.com/facebookresearch/audiocraft", "description": "Text-to-music/audio generation." }
+  ],
+  "embeddings": [
+    { "name": "bge-small-en-v1.5", "url": "https://huggingface.co/BAAI/bge-small-en-v1.5", "description": "Compact English embeddings." },
+    { "name": "bge-base-en-v1.5", "url": "https://huggingface.co/BAAI/bge-base-en-v1.5", "description": "Balanced English embeddings." },
+    { "name": "bge-large-en-v1.5", "url": "https://huggingface.co/BAAI/bge-large-en-v1.5", "description": "High-quality English embeddings." },
+    { "name": "gte-small", "url": "https://huggingface.co/thenlper/gte-small", "description": "Lightweight embedding model." },
+    { "name": "gte-base", "url": "https://huggingface.co/thenlper/gte-base", "description": "Balanced general-purpose embeddings." },
+    { "name": "gte-large", "url": "https://huggingface.co/thenlper/gte-large", "description": "High-performance embeddings." },
+    { "name": "e5-small-v2", "url": "https://huggingface.co/intfloat/e5-small-v2", "description": "Instruction embeddings, compact." },
+    { "name": "e5-base-v2", "url": "https://huggingface.co/intfloat/e5-base-v2", "description": "General instruction embeddings." },
+    { "name": "e5-large-v2", "url": "https://huggingface.co/intfloat/e5-large-v2", "description": "High-quality instruction embeddings." },
+    { "name": "nomic-embed-text-v1.5", "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5", "description": "Robust multilingual embeddings." },
+    { "name": "all-MiniLM-L6-v2", "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2", "description": "Very fast sentence embeddings." },
+    { "name": "E5-Mistral-7B-Instruct", "url": "https://huggingface.co/intfloat/e5-mistral-7b-instruct", "description": "Large instruction embeddings." }
+  ],
+  "multilingual_llms": [
+    { "name": "BLOOM 7.1B", "url": "https://huggingface.co/bigscience/bloom-7b1", "description": "Multilingual open LLM." },
+    { "name": "BLOOMZ 7.1B", "url": "https://huggingface.co/bigscience/bloomz-7b1-mt", "description": "Instruction-tuned multilingual." },
+    { "name": "XGLM 7.5B", "url": "https://huggingface.co/facebook/xglm-7.5B", "description": "Cross-lingual autoregressive LLM." },
+    { "name": "M2M100 418M", "url": "https://huggingface.co/facebook/m2m100_418M", "description": "Many-to-many translation model." },
+    { "name": "MarianMT (OPUS)", "url": "https://huggingface.co/Helsinki-NLP", "description": "Hundreds of translation models." }
+  ],
+  "safety_alignment": [
+    { "name": "Llama Guard", "url": "https://huggingface.co/meta-llama/LlamaGuard-7b", "description": "Safety classification model for LLM outputs." },
+    { "name": "WildGuard", "url": "https://huggingface.co/allenai/WildGuard", "description": "Open safety moderation model." }
+  ],
+  "medical_biomed": [
+    { "name": "BioGPT", "url": "https://huggingface.co/microsoft/BioGPT-Large", "description": "Biomedical language model." },
+    { "name": "ClinicalLongformer", "url": "https://huggingface.co/allenai/longformer-base-4096", "description": "Long-context transformer, clinical NLP use." },
+    { "name": "PubMedBERT", "url": "https://huggingface.co/microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext", "description": "Biomedical BERT variant." }
+  ]
+}
